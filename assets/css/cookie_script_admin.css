@@ -1,0 +1,205 @@
+.CookieScript__adminForm,
+.CookieScript__adminForm input[type="submit"]{
+    border-width: 1px;
+    border-style: solid;
+}
+
+#cookie_script_item_src {
+    width: 90%;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    padding: 0.375rem 0.75rem;
+}
+
+.CookieScript__src-wrapper {
+    display: flex;
+    margin: 12px 0;
+    width: 100%;
+}
+
+#CookieScript h3,
+.CookieScript__adminForm,
+.CookieScript__connectionType label,
+#CookieScript aside {
+    padding: 10px;
+}
+
+.CookieScript__adminForm,
+.CookieScript__adminForm input,
+.CookieScript__connectionType label,
+#CookieScript aside,
+.CookieScript__help:hover:before {
+    border-radius: 5px;
+}
+
+#CookieScript h3,
+.CookieScript__connectionType label {
+    display: inline-block;
+}
+
+.CookieScript__adminForm input[type="submit"],
+.CookieScript__help {
+    color: #fff;
+}
+
+.CookieScript__adminForm input[name="cookie_script_item_id"],
+.CookieScript__connectionType label input,
+.CookieScript__help {
+    margin-left: 5px;
+}
+
+.CookieScript__adminForm label[for="cookie_script_item_id"],
+.CookieScript__adminForm input[name="cookie_script_item_id"] {
+    width: 100%;
+}
+
+.CookieScript__adminForm input[type="submit"],
+.CookieScript__connectionType label {
+    margin-right: 5px;
+}
+
+.CookieScript__adminForm,
+#CookieScript aside {
+    max-width: 510px;
+}
+
+.settings_page_cookie-script .is-dismissible,
+#CookieScript aside {
+    margin-top: 24px;
+}
+
+.CookieScript__adminForm label[for="cookie_script_item_id"],
+.CookieScript__help,
+.CookieScript__adminForm--footer {
+    display: flex;
+    align-items: center;
+}
+
+.CookieScript__adminForm input[type="submit"]:hover,
+.CookieScript__help:hover {
+    cursor: pointer;
+}
+
+.CookieScript__help,
+.CookieScript__help:hover:before {
+    background-color: #000;
+}
+
+
+/* Joint styles ends here */
+
+.settings_page_cookie-script .is-dismissible {
+    margin-left: 0;
+}
+
+#CookieScript {
+    background-image: url(http://cookie-script.com/images/cookie.svg);
+    background-position: 525px bottom;
+    background-repeat: no-repeat;
+    background-size: 175px;
+    padding-bottom: 65px;
+}
+
+#CookieScript h3 {
+    font-size: 24px;
+    color: #22b4ec;
+}
+
+.CookieScript__adminForm {
+    background-color: #fff;
+    box-shadow: 2px 2px 7px 1px rgba(2, 2, 2, .28);
+    border-color: #fff;
+}
+
+.CookieScript__adminForm input:not([type="radio"]) {
+    border: 0;
+    padding: 10px;
+}
+
+.CookieScript__adminForm input[name="cookie_script_item_id"] {
+    max-width: 270px;
+    border: 1px solid transparent;
+}
+
+.CookieScript__adminForm input[type="submit"] {
+    border-radius: 25px;
+    padding: 7px 24px;
+    background: #22b4ec;
+    font-size: 16px;
+}
+
+.CookieScript__adminForm input[type="submit"]:hover {
+    background-color: #26A65B;
+}
+
+.CookieScript__connectionType {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.CookieScript__connectionType label {
+    background-color: #fff;
+    border: 1px solid transparent;
+}
+
+.CookieScript__adminForm--footer span {
+    padding-left: 10px;
+}
+
+.CookieScript--success {
+    border-color: #26A65B !important;
+}
+
+.CookieScript--error {
+    border-color: #ff7979 !important;
+    color: #ff7979 !important;
+}
+
+.CookieScript__help {
+    position: relative;
+    justify-content: center;
+    font-size: 10px;
+    padding: 2.5px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.CookieScript__help:hover:before {
+    position: absolute;
+    min-width: 320px;
+    content: attr(data-tooltip);
+    bottom: 150%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* Media queries */
+
+@media (max-width: 715px) {
+    #CookieScript {
+        background-image: none;
+    }
+}
+
+@media (max-width: 530px) {
+    #CookieScript {
+        padding-right: 10px;
+    }
+    .CookieScript__help:hover:before {
+        min-width: 150px;
+        left: auto;
+        right: 0;
+        bottom: -125px;
+        transform: none;
+    }
+}
+
+@media (max-width: 471px) {
+    .CookieScript__connectionType label[for="cookie_script_item_connection_type_3"] {
+        margin-top: 10px;
+    }
+}
