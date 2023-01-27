@@ -13,7 +13,7 @@
             itemId = $(this).val(),
             url = srcUrl;
 
-            if (srcUrl) != null) ) {
+            if (srcUrl != null) {
 
                 $.ajax({
                     url: url,

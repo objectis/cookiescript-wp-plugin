@@ -111,7 +111,6 @@ class CookieScript {
 			<h3><?php esc_html_e("Cookie Script Settings 🍪", "CookieScript"); ?></h3>
 			<form class="CookieScript__adminForm" method="post" action="options.php">
 				<?php settings_fields("cookie_script_options_group"); ?>
-                <!--TODO need to remove this part of code with label on next update-->
 				<label for="cookie_script_item_id" style="display: none">
 					<?php esc_html_e("Item ID", "CookieScript"); ?>
 					<input
@@ -122,7 +121,6 @@ class CookieScript {
 							minLength="32"
 							maxLength="32"
 							placeholder="2f52e9e40086852947abec4fb3297d57"
-							required
 					>
 					<span
 							class="CookieScript__help"
@@ -161,7 +159,6 @@ class CookieScript {
                                     name="cookie_script_item_connection_type"
                                     value="1"
                                 <?php echo ($this->item_connection_type === 1) ? "checked" : ""; ?>
-                                    required
                             >
                         </label>
                         <label for="cookie_script_item_connection_type_2">
@@ -172,7 +169,6 @@ class CookieScript {
                                     name="cookie_script_item_connection_type"
                                     value="2"
                                 <?php echo ($this->item_connection_type === 2) ? "checked" : ""; ?>
-                                    required
                             >
                         </label>
                         <label for="cookie_script_item_connection_type_3">
@@ -183,7 +179,6 @@ class CookieScript {
                                     name="cookie_script_item_connection_type"
                                     value="3"
                                 <?php echo ($this->item_connection_type === 3) ? "checked" : ""; ?>
-                                    required
                             >
                         </label>
                         <label for="cookie_script_item_connection_type_4">
@@ -194,7 +189,6 @@ class CookieScript {
                                     name="cookie_script_item_connection_type"
                                     value="4"
                                 <?php echo ($this->item_connection_type === 4) ? "checked" : ""; ?>
-                                    required
                             >
                         </label>
                     </div>
@@ -263,7 +257,6 @@ class CookieScript {
 
         $url = null;
 
-        //TODO need to remove this part of code on next update
 		switch ($this->item_connection_type) {
 			case 1:
 				$conn = "//cdn.";
@@ -313,6 +306,7 @@ class CookieScript {
 		}
 
 		delete_option("cookie_script_item_id");
+		delete_option("cookie_script_item_src");
 		delete_option("cookie_script_item_connection_type");
 
 		wp_dequeue_script("cookie_script");
