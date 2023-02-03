@@ -199,34 +199,58 @@ class CookieScript {
 				</div>
 
                 <aside>
-                    <p><b><?php esc_html_e("Hello there!", "CookieScript"); ?></b></p>
-                    <p><?php
+                    <p><b><?php esc_html_e("How to use this plugin:", "CookieScript"); ?></b></p>
+                    <ol>
+                        <li>
+                            <?php
+                            printf(
+                                esc_html__("Register account on %1\$s", "CookieScript"),
+                                sprintf(
+                                    "<a href='%s' target='_blank'>%s</a>",
+                                    esc_url("https://cookie-script.com", array("https")),
+                                    esc_html__("CookieScript", "CookieScript")
+                                )
+                            ); ?>
+                        </li>
+                        <li>
+                            <?php
+                            printf(
+                                esc_html__("Create a banner for your website", "CookieScript")
+                            ); ?>
+                        </li>
+                        <li>
+                            <?php
+                            printf(
+                                esc_html__("Copy your banner code and insert it in the field above", "CookieScript")
+                            ); ?>
+                        </li>
+                        <li>
+                            <?php
+                            printf(
+                                esc_html__("All done, your website will now show the cookie banner", "CookieScript")
+                            ); ?>
+                        </li>
+                    </ol>
+                    <p><?php printf(esc_html_e("If needed, you can adjust your banner settings in your CookieScript dashboard.", "CookieScript")); ?></p>
+                    <p>
+                        <?php
                         printf(
-                            esc_html__("In order to block third-party cookies you still have to make %1\$s.", "CookieScript"),
+                            esc_html__("You can also check our %1\$s.", "CookieScript"),
+                            sprintf(
+                                "<a href='%s' target='_blank'>%s</a>",
+                                esc_url("https://cookie-script.com/blog/cookie-consent-for-wordpress", array("https")),
+                                esc_html__("detailed instructions with video guide", "CookieScript")
+                            )
+                        ); ?>
+                    </p>
+                    <p>
+                        <?php
+                        printf(
+                            esc_html__("To block third-party cookies you might still have to make these changes: %1\$s.", "CookieScript"),
                             sprintf(
                                 "<a href='%s' target='_blank'>%s</a>",
                                 esc_url("https://cookie-script.com/how-to-block-third-party-cookies.html", array("https")),
-                                esc_html__("these changes", "CookieScript")
-                            )
-                        ); ?>
-                    </p>
-                    <p><?php
-                        printf(
-                            esc_html__("For more manuals feel free to check our %1\$s.", "CookieScript"),
-                            sprintf(
-                                "<a href='%s' target='_blank'>%s</a>",
-                                esc_url("https://cookie-script.com/blog/user-manuals/", array("https")),
-                                esc_html__("manuals section", "CookieScript")
-                            )
-                        ); ?>
-                    </p>
-                    <p><?php
-                        printf(
-                            esc_html__("For more help and support feel free to contact by email %1\$s.", "CookieScript"),
-                            sprintf(
-                                "<a href='mailto:%s' target='_blank'>%s</a>",
-                                sanitize_email("support@cookie-script.com"),
-                                sanitize_email("support@cookie-script.com")
+                                esc_html__("How to block third-party cookies", "CookieScript")
                             )
                         ); ?>
                     </p>

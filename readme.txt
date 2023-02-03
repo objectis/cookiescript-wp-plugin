@@ -14,18 +14,20 @@ Cookie-Script.com WordPress plugin.
 Cookie Script helps you to comply with European Cookie Law and GDPR. Make your own cookie information popup, no programming skills required. You can even use it for free.
 
 == Frequently Asked Questions ==
-It would be best if you checked Cookie-Script.com manuals section before:
-https://cookie-script.com/blog/user-manuals/
+This plugin helps to insert <a href="https://cookie-script.com/" target="_blank">Cookie-Script.com</a> code inside your WordPress website in an easy, user-friendly way, without the need to edit template files.
 
-For now this plugin only helps to insert Cookie-Script.com code inside your WordPress website in an easy, user-friendly way, without the need to edit template files.
+How to use this plugin:
 
-Blocks first-party cookies out of the box.
+Register account on <a href="https://cookie-script.com/" target="_blank">CookieScript</a>
+Create a banner for your website
+Copy your banner code and insert it in the field above
+All done, your website will now show the cookie banner
+If needed, you can adjust your banner settings in your CookieScript dashboard.
 
-To block third-party cookies you still have to make these changes:
-https://cookie-script.com/how-to-block-third-party-cookies.html
+You can also check our <a href="https://cookie-script.com/blog/cookie-consent-for-wordpress/" target="_blank">detailed instructions with video guide</a>.
 
-For help and support, any kind of suggestions feel free to write at:
-support@cookie-script.com
+To block third-party cookies you might still have to make these changes:
+<a href="https://cookie-script.com/how-to-block-third-party-cookies.html" target="_blank">How to block third-party cookies</a>
 
 == Screenshots ==
 1. Cookie-Script.com plugin settings page
