@@ -18,10 +18,11 @@ This plugin helps to insert <a href="https://cookie-script.com/" target="_blank"
 
 How to use this plugin:
 
-Register account on <a href="https://cookie-script.com/" target="_blank">CookieScript</a>
-Create a banner for your website
-Copy your banner code and insert it in the field above
-All done, your website will now show the cookie banner
+1. Register account on <a href="https://cookie-script.com/" target="_blank">CookieScript</a>
+2. Create a banner for your website
+3. Copy your banner code and insert it in the field above
+4. All done, your website will now show the cookie banner
+
 If needed, you can adjust your banner settings in your CookieScript dashboard.
 
 You can also check our <a href="https://cookie-script.com/blog/cookie-consent-for-wordpress/" target="_blank">detailed instructions with video guide</a>.

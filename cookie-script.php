@@ -138,7 +138,7 @@ class CookieScript {
                                 value="<?php echo $this->src ?>"
                                 maxLength="225"
                                 minlength="60"
-                                placeholder="//geo.cookie-script.com/s/********************************.js?region=eu"
+                                placeholder="//cdn.cookie-script.com/s/********************************.js"
                                 required
                         >
                         <span
